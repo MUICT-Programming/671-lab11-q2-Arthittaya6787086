@@ -10,8 +10,6 @@ summed_list = summation(lst1,lst2)
 print(summed_list)
 
 def find_min_max(c = summed_list):
-    min_of_lst = min(c)
-    max_of_lst = max(c)
-    return min_of_lst, max_of_lst
+    return min(c), max(c)
 
 print(find_min_max(summed_list))
